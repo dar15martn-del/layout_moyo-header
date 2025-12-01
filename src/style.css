@@ -54,7 +54,7 @@ body {
   line-height: 60px;
 }
 
-.nav__link.is-active {
+.nav__link:hover, .nav__link.is-active {
   color: var(--blue);
 }
 
@@ -70,6 +70,3 @@ body {
   transform: translateX(-50%);
 }
 
-.nav__link:hover {
-  color: var(--blue);
-}
