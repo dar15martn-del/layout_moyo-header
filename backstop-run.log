@@ -1,0 +1,29 @@
+BackstopJS v6.3.23
+node:internal/modules/cjs/loader:1210
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\projects\layout_moyo-header\backstop.json'
+Require stack:
+- C:\projects\layout_moyo-header\node_modules\backstopjs\core\util\makeConfig.js
+- C:\projects\layout_moyo-header\node_modules\backstopjs\core\runner.js
+- C:\projects\layout_moyo-header\node_modules\backstopjs\cli\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1207:15)
+    at Function.resolve (node:internal/modules/helpers:193:19)
+    at loadProjectConfig (C:\projects\layout_moyo-header\node_modules\backstopjs\core\util\makeConfig.js:44:36)
+    at makeConfig (C:\projects\layout_moyo-header\node_modules\backstopjs\core\util\makeConfig.js:62:40)
+    at module.exports (C:\projects\layout_moyo-header\node_modules\backstopjs\core\runner.js:5:18)
+    at main (C:\projects\layout_moyo-header\node_modules\backstopjs\cli\index.js:40:5)
+    at Object.<anonymous> (C:\projects\layout_moyo-header\node_modules\backstopjs\cli\index.js:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1521:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1623:10)
+    at Module.load (node:internal/modules/cjs/loader:1266:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\projects\\layout_moyo-header\\node_modules\\backstopjs\\core\\util\\makeConfig.js',
+    'C:\\projects\\layout_moyo-header\\node_modules\\backstopjs\\core\\runner.js',
+    'C:\\projects\\layout_moyo-header\\node_modules\\backstopjs\\cli\\index.js'
+  ]
+}
+
+Node.js v20.19.5
