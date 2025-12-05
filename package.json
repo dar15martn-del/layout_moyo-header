@@ -2,7 +2,7 @@
   "name": "header",
   "version": "1.0.0",
   "description": "Frontend practice with header",
-  "homepage": "/layout_moyo-report",
+  "homepage": "layout_moyo-header",
   "scripts": {
     "init": "mate-scripts init",
     "start": "mate-scripts start",
